@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #https://www.kaggle.com/sourav2000/marketing-analytics
-data = pd.read_csv(r'C:\Users\olivi\PycharmProjects\pythonProject104\marketing_data.csv')
+data = pd.read_csv(r'C:\Users\olivi\PycharmProjects\pythonProject104\market.csv')
 
 
 print(data.head())
@@ -18,4 +18,3 @@ plt.figure(figsize = (15,6))
 ax = sns.countplot(x="Year_Birth", data=data)
 ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
 
- 

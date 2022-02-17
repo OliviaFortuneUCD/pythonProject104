@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # https://www.kaggle.com/sourav2000/marketing-analytics
-data = pd.read_csv(r'C:\Users\olivi\PycharmProjects\pythonProject104\marketing_data.csv')
+data = pd.read_csv(r'C:\Users\olivi\PycharmProjects\pythonProject104\market.csv')
 
 plt.figure(figsize = (15,6))
 
